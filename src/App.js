@@ -5,14 +5,14 @@ function App() {
 
   return (
     <react.Fragment>
-      <div className="header bg-black">
-        <h1 className='text-white text-center'>MOVIES APP</h1>
+      <div className="header">
+        <h1 className="header-title">MOVIES APP</h1>
       </div>
       <div className="container">
         <Movies />
       </div>
-      <div className="header bg-black">
-        <h6 className='text-white text-center'>Developed By Abdullah_Niaz</h6>
+      <div className="footer">
+        <h6 className="footer-text">Developed By Abdullah_Niaz</h6>
       </div>
 
     </react.Fragment>
